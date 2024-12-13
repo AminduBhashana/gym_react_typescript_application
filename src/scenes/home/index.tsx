@@ -2,8 +2,8 @@ import useMediaQuery from "../../hooks/useMediaQuery";
 import { SelectedPage } from "../../shared/types";
 import HomePageText from '../../assets/HomePageText.png';
 import HomePageGraphic from '../../assets/HomePageGraphic.png';
-import SponsorRedBull from '../../assets/SponsorRedBull.png';
-import SponsorForbes from '../../assets/SponsorForbes.png';
+import SponsorSpark from '../../assets/SponsorSpark.png';
+import SponsorNP from '../../assets/SponsorNP.png';
 import SponsorFortune from '../../assets/SponsorFortune.png';
 import ActionButton from "../../shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -80,8 +80,8 @@ const Home = ({setSelectedPage}: Props) => {
             <div className="h-[150px] w-full bg-primary-100 py-10">
                <div className="mx-auto w-5/6">
                     <div className="flex items-center justify-between gap-16">
-                        <img alt="redbull-sponsor" src={SponsorRedBull}/>
-                        <img alt="forbes-sponsor" src={SponsorForbes}/>
+                        <img alt="redbull-sponsor" src={SponsorSpark}/>
+                        <img alt="forbes-sponsor" src={SponsorNP}/>
                         <img alt="fortune-sponsor" src={SponsorFortune}/>               
                   </div>
                 </div> 

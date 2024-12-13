@@ -57,8 +57,8 @@ Welcome to the Gym Portfolio Application! This project is a sleek and responsive
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/gym-portfolio.git
-   cd gym-portfolio
+   git clone https://github.com/AminduBhashana/gym_react_typescript_application.git
+   cd gym_react_typescript_application
 
 2. Install dependencies:
    ```bash

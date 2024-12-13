@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
+# Gym Portfolio Application 🏋️‍♂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Gym Portfolio Application! This project is a sleek and responsive portfolio for gyms, showcasing essential sections like **Home**, **Benefits**, **Our Classes**, and **Contact Us**. Built with cutting-edge technologies, it provides an excellent user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
 
-## Expanding the ESLint configuration
+- **Home**: A welcoming hero section with an engaging introduction.
+- **Benefits**: Highlights the key advantages of choosing this gym.
+- **Our Classes**: Showcases various classes available.
+- **Contact Us**: Easy-to-use form for inquiries and contact details.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used 🛠️
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Frontend**: React, TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Icons**: Hero Icons
+- **Fonts**: Google Fonts
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Screenshots 📸
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+| Home | Benefits |
+|------|----------|
+| ![Home](./screenshots/screenshot1.png) | ![Benefits](./screenshots/screenshot2.png) |
+
+| Our Classes | Contact Us |
+|-------------|------------|
+| ![Our Classes](./screenshots/screenshot3.png) | ![Contact Us](./screenshots/screenshot4.png) |
+
+| Mobile View 1 | Mobile View 2 |
+|---------------|---------------|
+| ![Mobile 1](./screenshots/mobileView1.png) | ![Mobile 2](./screenshots/mobileView2.png) |
+
+> **Note:** Ensure all screenshots are placed in the `screenshots` folder in the project directory. Each screenshot should have a fixed width of **800px** for uniformity.
+
+---
+
+## Installation & Usage 🚀
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gym-portfolio.git
+   cd gym-portfolio
+

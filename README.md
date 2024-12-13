@@ -20,28 +20,34 @@ Welcome to the Gym Portfolio Application! This project is a sleek and responsive
 - **Build Tool**: Vite
 - **Icons**: Hero Icons
 - **Fonts**: Google Fonts
+- **Animations**: Framer Motion
 
 ---
 
 ## Screenshots 📸
 
-### Home
-<img src="screenshots/screenshot1.png" alt="Home" width="400" height="300">
+## Web View
+<table>
+  <tr>
+    <td><img src="screenshots/screenshot1.PNG" alt="Home Page" width="500" height="300"/></td>
+    <td><img src="screenshots/screenshot2.PNG" alt="Benefits Page" width="500" height="300"/></td>
+  </tr>
+  <tr>
+   <td><img src="screenshots/screenshot3.PNG" alt="Banner Page" width="500" height="300"/></td>
+   <td><img src="screenshots/screenshot4.PNG" alt="Our-Classes Page" width="500" height="300"/></td>
+  </tr>
+   <tr>
+   <td><img src="screenshots/screenshot5.PNG" alt="Contact-Us Page" width="500" height="300"/></td>
+  </tr>
+</table>
 
-### Benefits
-<img src="./screenshots/benefits.png" alt="Benefits" width="400" height="300">
-
-### Our Classes
-<img src="./screenshots/classes.png" alt="Our Classes" width="400" height="300">
-
-### Contact Us
-<img src="./screenshots/contact.png" alt="Contact Us" width="400" height="300">
-
-### Mobile View 1
-<img src="./screenshots/mobile1.png" alt="Mobile View 1" width="400" height="300">
-
-### Mobile View 2
-<img src="./screenshots/mobile2.png" alt="Mobile View 2" width="400" height="300">
+## Mobile View
+<table>
+   <tr>
+   <td><img src="screenshots/mobileView1.PNG" alt="Mobile View1" width="250" height="300"/></td>
+   <td><img src="screenshots/mobileView2.PNG" alt="Mobile View2" width="250" height="300"/></td>
+  </tr>
+</table>
 
 > **Note:** Ensure all screenshots are placed in the `screenshots` folder in the project directory.
 
@@ -54,3 +60,14 @@ Welcome to the Gym Portfolio Application! This project is a sleek and responsive
    git clone https://github.com/yourusername/gym-portfolio.git
    cd gym-portfolio
 
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Start the development server:
+   ```bash
+   npm run dev
+
+4. Open your browser at `http://localhost:5173`
+
+### 🌟 Thank you for exploring the Gym Portfolio Application! Ready to elevate your fitness journey? 💪

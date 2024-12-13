@@ -25,19 +25,25 @@ Welcome to the Gym Portfolio Application! This project is a sleek and responsive
 
 ## Screenshots 📸
 
-| Home | Benefits |
-|------|----------|
-| ![Home](./screenshots/screenshot1.png) | ![Benefits](./screenshots/screenshot2.png) |
+### Home
+<img src="screenshots/screenshot1.png" alt="Home" width="400" height="300">
 
-| Our Classes | Contact Us |
-|-------------|------------|
-| ![Our Classes](./screenshots/screenshot3.png) | ![Contact Us](./screenshots/screenshot4.png) |
+### Benefits
+<img src="./screenshots/benefits.png" alt="Benefits" width="400" height="300">
 
-| Mobile View 1 | Mobile View 2 |
-|---------------|---------------|
-| ![Mobile 1](./screenshots/mobileView1.png) | ![Mobile 2](./screenshots/mobileView2.png) |
+### Our Classes
+<img src="./screenshots/classes.png" alt="Our Classes" width="400" height="300">
 
-> **Note:** Ensure all screenshots are placed in the `screenshots` folder in the project directory. Each screenshot should have a fixed width of **800px** for uniformity.
+### Contact Us
+<img src="./screenshots/contact.png" alt="Contact Us" width="400" height="300">
+
+### Mobile View 1
+<img src="./screenshots/mobile1.png" alt="Mobile View 1" width="400" height="300">
+
+### Mobile View 2
+<img src="./screenshots/mobile2.png" alt="Mobile View 2" width="400" height="300">
+
+> **Note:** Ensure all screenshots are placed in the `screenshots` folder in the project directory.
 
 ---
 
